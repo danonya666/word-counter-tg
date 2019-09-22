@@ -21,6 +21,7 @@ def echo_all(message):
     bot.reply_to(message, message.text)
 
 
+
 while True:
     try:
         bot.polling()
